@@ -1,5 +1,5 @@
-import react from 'react';
-import '../App.css';
+import react from "react";
+import "../App.css";
 
 class Calculator extends react.Component {
   constructor(props) {
@@ -15,9 +15,9 @@ class Calculator extends react.Component {
         </div>
         <div className="row">
           <p className="colr-grey item">AC</p>
-          <p className="colr-grey item">÷/-</p>
+          <p className="colr-grey item">+/-</p>
           <p className="colr-grey item">%</p>
-          <p className="colr-orng item">+</p>
+          <p className="colr-orng item">÷</p>
         </div>
         <div className="row">
           <p className="colr-grey item">7</p>
@@ -27,7 +27,7 @@ class Calculator extends react.Component {
         </div>
         <div className="row">
           <p className="colr-grey item">4</p>
-          <p className="colr-grey item">5/-</p>
+          <p className="colr-grey item">5</p>
           <p className="colr-grey item">6</p>
           <p className="colr-orng item">-</p>
         </div>
