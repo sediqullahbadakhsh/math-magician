@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../App.css';
 import Buttons from './Buttons';
 import calculate from '../logic/calculate';
+import '../assets/App.css';
 
 const Calculator = () => {
   const [displayed, setDisplayed] = useState({
@@ -15,13 +15,16 @@ const Calculator = () => {
   const { total, operation, next } = displayed;
 
   return (
-    <div className="calculator">
-      <div className="result">
-        {total}
-        {operation}
-        {next}
+    <div className="calc-container">
+      <h3>Lets do some Math!</h3>
+      <div className="calculator">
+        <div className="result">
+          {total}
+          {operation}
+          {next}
+        </div>
+        <Buttons click={onClick} />
       </div>
-      <Buttons click={onClick} />
     </div>
   );
 };

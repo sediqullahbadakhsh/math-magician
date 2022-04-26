@@ -4,31 +4,32 @@
   box-sizing: border-box;
 }
 
-#root {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
+body {
+  background-color: #d0d0d0;
 }
 
 .result {
   background-color: #858293;
-  padding-right: 5px;
+  padding-right: 10px;
   color: white;
-  height: 40px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-size: 24px;
 }
 
 .buttons {
   display: grid;
-  grid-template-columns: repeat(4, 70px);
-  grid-template-rows: repeat(5, 40px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 60px);
   background-color: #dfdfdf;
+  font-size: 28px;
 }
 
 .buttons button {
   border: 1px solid #d0d0d0;
+  font-size: 20px;
 }
 
 .buttons button:nth-child(17) {
@@ -38,4 +39,11 @@
 .buttons button:nth-child(4n),
 .buttons button:last-child {
   background-color: #ff8e00;
+}
+
+.calc-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 50px;
 }
