@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<div
+  className="quote-container"
+>
+  <h2 />
+  <button
+    className="quote"
+    onClick={[Function]}
+    type="button"
+  >
+    Next Quote
+  </button>
+</div>
+`;
